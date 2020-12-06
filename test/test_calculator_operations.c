@@ -28,7 +28,7 @@ void test_kmtometer(void);
 void test_centitoinch(void);
 void test_inchtocenti(void);
 
-void test_add(void);
+void test_and(void);
 void test_or(void);
 void test_not(void);
 void test_nand(void);
@@ -93,7 +93,7 @@ int main() {
 }
 
 /* Write all the test functions */ 
-void test_and(void) {
+void test_add(void) {
   CU_ASSERT(30 == add(10, 20));
   
   /* Dummy fail*/
