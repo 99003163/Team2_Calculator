@@ -146,37 +146,37 @@ float centitoinch(float operand1)
     return operand1/2.54;
 }
 
-int and(int num1, int num2){
-    int result = num1 & num2;
+int and(int operand1, int operand2){
+    int result = operand1 & operand2;
     return result;
 }
 
-int or(int num1, int num2){
-    int result = num1 | num2;
+int or(int operand1, int operand2){
+    int result = operand1 | operand2;
     return result;
 }
 
-int not(int num1){
-    int result = ~num1;
+int not(int operand1){
+    int result = ~operand1;
     return result;
 }
 
-int nand(int num1, int num2){
-    int result = ~(num1 & num2);
+int nand(int operand1, int operand2){
+    int result = ~(operand1 & operand2);
     return result;
 }
 
-int nor(int num1, int num2){
-    int result = ~(num1 | num2);
+int nor(int operand1, int operand2){
+    int result = ~(operand1 | operand2);
     return result;
 }
 
-int xor(int num1, int num2){
-    int result = num1 ^ num2;
+int xor(int operand1, int operand2){
+    int result = operand1 ^ operand2;
     return result;
 }
 
-int xnor(int num1, int num2){
-    int result = ~(num1 ^ num2);
+int xnor(int operand1, int operand2){
+    int result = ~(operand1 ^ operand2);
     return result;
 }
