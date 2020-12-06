@@ -247,7 +247,7 @@ void test_and(void) {
  CU_ASSERT(10 ==  and (10, 15));
  
  /* Dummy fail*/
- CU_ASSERT(9 == and (8, 15);
+ CU_ASSERT(9 == and (8, 15));
 }
 
 void test_or(void) {
