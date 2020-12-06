@@ -14,7 +14,6 @@ int calculator_operand2 = 0;
 
 /* Valid operations */
 enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, SQUARE, POWER, PRIME, GREATER, SMALLER, FACTORIAL, MODULUS, SQUAREROOT, SIN, COS, TAN, CMTOM, MTOCM, MTOKM, KMTOM, INCHTOCM, CMTOINCH, AND, OR, NOT, NAND, NOR, XOR, XNOR, EXIT };
-EXIT };
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
