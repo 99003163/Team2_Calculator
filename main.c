@@ -35,8 +35,7 @@ void calculator_menu(void)
 {
     printf("\nAvailable Operations\n");
     printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Square\n6. Power\n7. Prime\n8. Greater\n.9 Smaller\n10. Factorial\n11. Modulus\n12. SquareRoot\n13. Sin\n14. Cos\n15. Tan\n16. CMTOM\n17. MTOCM\n18. MTOKM\n19. KMTOM\n20. INCHTOCM\n21. CMTOINCH\n22. AND\n23. OR\n24. NOT\n25. NAND\n26. NOR\n27. XOR\n28. XNOR\n29. Exit");
-    printf("\n\tEnter your choice\n");Exit");
-    printf("\n\tEnter your choice\n");
+       printf("\n\tEnter your choice\n");
    
      __fpurge(stdin);
     scanf("%d", &calculator_operation);
