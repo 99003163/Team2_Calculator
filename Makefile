@@ -1,6 +1,7 @@
 # Name of the project
 PROJECT_NAME = Calculator
 
+
 # Output directory
 BUILD = build
 
